@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<head>
+    <title>Week 2 Assignment</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Wakanda</h1>
+    </header>
+
+    <!-- Ordered List with Alphabet -->
+    <section>
+        <h2>Ordered List</h2>
+        <ol type="A">
+            <li>King</li>
+            <li>Queen</li>
+            <li>Royal Family</li>
+            <li>Other Royalty</li>
+            <li>People</li>
+        </ol>
+    </section>
+    
+    <!-- External Image -->
+    <section>
+        <h2>External Image</h2>
+        <img src="https://images.pexels.com/photos/132428/pexels-photo-132428.jpeg/" alt="Wakanda Forest" width="600" height="1000">
+    </section>
+    
+    <!-- Contacts Table -->
+    <section>
+        <h2>Contact List</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>King A</td>
+                    <td>35</td>
+                    <td>1234567890</td>
+                    <td>king@wakanda.com</td>
+                </tr>
+                <tr>
+                    <td>Queen B</td>
+                    <td>30</td>
+                    <td>0987654321</td>
+                    <td>queenb@wakanda.com</td>
+                </tr>
+                <tr>
+                    <td>Mother</td>
+                    <td>56</td>
+                    <td>1122334455</td>
+                    <td>mother@wakanda.com</td>
+                </tr>
+                <tr>
+                    <td>Father</td>
+                    <td>60</td>
+                    <td>5566778899</td>
+                    <td>father@wakanda.com</td>
+                <tr>
+                    <td>Soldier</td>
+                    <td>34</td>
+                    <td>6677889900</td>
+                    <td>soldier@wakanda.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+    <!-- Registration Form -->
+    <section>
+        <h2>New Member Registration</h2>
+        <form action="" method="">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br>
+
+            <label for="today">Today's Date:</label>
+            <input type="date" id="today" name="today" required>
+            <br>
+
+            <!-- Dropdown -->
+            <label for="country">Select Country:</label>
+            <select id="country" name="country" required>
+                <option value="">-- Select --</option>
+                <option value="Kenya">Kenya</option>
+                <option value="Uganda">Uganda</option>
+                <option value="Tanzania">Tanzania</option>
+                <option value="Burundi">Burundi</option>
+            </select>
+            <br>
+
+            <!-- Radio Buttons -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <br>
+
+            <!-- Checkboxes -->
+            <label>Interests:</label>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label>
+            <input type="checkbox" id="tech" name="interests" value="tech">
+            <label for="tech">Technology</label>
+            <br>
+
+            <!-- Submit Button -->
+            <button type="submit">Register</button>
+            <button type="submit">Cancel</button>
+        </form>
+    </section>
+</body>
+</html>
